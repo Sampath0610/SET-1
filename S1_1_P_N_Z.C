@@ -2,14 +2,20 @@
 #include<conio.h>
 void main()
 {
-int num;
-clrscr();
-scanf("%d",&num);
-if(num>0)
- printf("Positive");
-else if(num<0)
- printf("Negative");
-else
- printf("Zero");
-getch();
+ int a;
+ clrscr();
+ scanf("%d",&a);
+ if (a>0)
+ {
+  printf("positive");
+ }
+ else if(a<0)
+ {
+  printf("negative");
+ }
+ else
+ {
+  printf("negative");
+ }
+ getch();
 }
