@@ -2,17 +2,17 @@
 #include<conio.h>
 void main()
 {
-int number1,number2,number3;
+int num1,num2,num3;
 clrscr();
-scanf("%d %d %d",&number1,&number2,&number3);
-if(number1>number2)
+scanf("%d %d %d",&num1,&num2,&num3);
+if(num1>num2)
 {
- if(number1>number3)
-   printf("%d",number1);
+ if(num1>num3)
+   printf("%d",num1);
 }
-else if(number2>number3)
- printf("%d",number2);
+else if(num2>num3)
+ printf("%d",num2);
 else
- printf("%d",number3);
+ printf("%d",num3);
 getch();
 }
