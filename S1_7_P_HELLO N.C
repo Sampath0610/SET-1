@@ -2,10 +2,10 @@
 #include<conio.h>
 void main()
 {
-int num,i;
+int n,i;
 clrscr();
-scanf("%d",&num);
-for(i=0;i<num;i++)
+scanf("%d",&n);
+for(i=0;i<n;i++)
  printf("Hello\n");
 getch();
 }
