@@ -2,10 +2,10 @@
 #include<conio.h>
 void main()
 {
-char character;
+char char;
 clrscr();
-scanf("%c",&character);
-if((character>='a' && character<='z') || (character>='A'&&character<='Z'))
+scanf("%c",&char);
+if((char>='a' && char<='z') || (char>='A'&&char<='Z'))
  printf("Alphabet");
 else
  printf("No");
